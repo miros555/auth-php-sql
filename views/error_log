@@ -1,0 +1,63 @@
+[23-Feb-2021 22:18:07 Europe/Kiev] PHP Notice:  Trying to get property 'expiry' of non-object in /home/miro/q.fabrik.top/views/login.php on line 65
+[23-Feb-2021 22:19:59 Europe/Kiev] PHP Notice:  Undefined index: attempt in /home/miro/q.fabrik.top/views/login.php on line 65
+[23-Feb-2021 22:19:59 Europe/Kiev] PHP Notice:  Trying to get property 'expiry' of non-object in /home/miro/q.fabrik.top/views/login.php on line 65
+[23-Feb-2021 22:19:59 Europe/Kiev] PHP Notice:  Undefined index: auth in /home/miro/q.fabrik.top/views/login.php on line 74
+[23-Feb-2021 22:20:00 Europe/Kiev] PHP Notice:  Trying to get property 'expiry' of non-object in /home/miro/q.fabrik.top/views/login.php on line 65
+[23-Feb-2021 22:20:02 Europe/Kiev] PHP Notice:  Trying to get property 'expiry' of non-object in /home/miro/q.fabrik.top/views/login.php on line 65
+[23-Feb-2021 22:20:04 Europe/Kiev] PHP Notice:  Trying to get property 'expiry' of non-object in /home/miro/q.fabrik.top/views/login.php on line 65
+[23-Feb-2021 22:21:30 Europe/Kiev] PHP Notice:  Undefined index: attempt in /home/miro/q.fabrik.top/views/login.php on line 65
+[23-Feb-2021 22:21:30 Europe/Kiev] PHP Notice:  Trying to get property 'expiry' of non-object in /home/miro/q.fabrik.top/views/login.php on line 65
+[23-Feb-2021 22:21:30 Europe/Kiev] PHP Notice:  Undefined index: auth in /home/miro/q.fabrik.top/views/login.php on line 72
+[23-Feb-2021 22:21:48 Europe/Kiev] PHP Notice:  Undefined index: attempt in /home/miro/q.fabrik.top/views/login.php on line 65
+[23-Feb-2021 22:21:48 Europe/Kiev] PHP Notice:  Trying to get property 'expiry' of non-object in /home/miro/q.fabrik.top/views/login.php on line 65
+[23-Feb-2021 22:21:48 Europe/Kiev] PHP Notice:  Undefined index: auth in /home/miro/q.fabrik.top/views/login.php on line 72
+[01-Mar-2021 13:00:11 Europe/Kiev] PHP Parse error:  syntax error, unexpected ''login); ?>' (T_ENCAPSED_AND_WHITESPACE) in /home/miro/q.fabrik.top/views/profile.php on line 7
+[01-Mar-2021 13:00:31 Europe/Kiev] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/miro/q.fabrik.top/views/profile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/miro/q.fabrik.top/views/profile.php on line 7
+[01-Mar-2021 13:04:12 Europe/Kiev] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/miro/q.fabrik.top/views/profile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/miro/q.fabrik.top/views/profile.php on line 7
+[01-Mar-2021 13:07:07 Europe/Kiev] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/miro/q.fabrik.top/views/profile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/miro/q.fabrik.top/views/profile.php on line 7
+[01-Mar-2021 13:07:43 Europe/Kiev] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/miro/q.fabrik.top/views/profile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/miro/q.fabrik.top/views/profile.php on line 7
+[01-Mar-2021 13:07:45 Europe/Kiev] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/miro/q.fabrik.top/views/profile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/miro/q.fabrik.top/views/profile.php on line 7
+[01-Mar-2021 13:10:04 Europe/Kiev] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/miro/q.fabrik.top/views/profile.php on line 7
+[01-Mar-2021 13:10:20 Europe/Kiev] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/miro/q.fabrik.top/views/profile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/miro/q.fabrik.top/views/profile.php on line 7
+[01-Mar-2021 13:11:29 Europe/Kiev] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/miro/q.fabrik.top/views/profile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/miro/q.fabrik.top/views/profile.php on line 7
+[01-Mar-2021 13:12:22 Europe/Kiev] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/miro/q.fabrik.top/views/profile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/miro/q.fabrik.top/views/profile.php on line 7
+[01-Mar-2021 13:12:23 Europe/Kiev] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/miro/q.fabrik.top/views/profile.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/miro/q.fabrik.top/views/profile.php on line 7
+[01-Mar-2021 14:00:59 Europe/Kiev] PHP Notice:  Undefined variable: _SESSION in /home/miro/q.fabrik.top/views/profile.php on line 7
+[01-Mar-2021 14:02:07 Europe/Kiev] PHP Notice:  Undefined variable: _SESSION in /home/miro/q.fabrik.top/views/profile.php on line 7
+[01-Mar-2021 14:09:21 Europe/Kiev] PHP Notice:  Undefined variable: _SESSION in /home/miro/q.fabrik.top/views/profile.php on line 7
+[01-Mar-2021 14:10:28 Europe/Kiev] PHP Notice:  Undefined variable: _SESSION in /home/miro/q.fabrik.top/views/profile.php on line 7
+[01-Mar-2021 14:11:29 Europe/Kiev] PHP Notice:  Undefined variable: _SESSION in /home/miro/q.fabrik.top/views/profile.php on line 3
+[01-Mar-2021 14:12:39 Europe/Kiev] PHP Notice:  Undefined variable: _SESSION in /home/miro/q.fabrik.top/views/profile.php on line 3
+[01-Mar-2021 14:12:40 Europe/Kiev] PHP Notice:  Undefined variable: _SESSION in /home/miro/q.fabrik.top/views/profile.php on line 3
+[01-Mar-2021 14:32:12 Europe/Kiev] PHP Notice:  Undefined index: sess_account in /home/miro/q.fabrik.top/views/profile.php on line 7
+[01-Mar-2021 14:33:31 Europe/Kiev] PHP Notice:  Undefined index: sess_account in /home/miro/q.fabrik.top/views/profile.php on line 10
+[01-Mar-2021 14:34:44 Europe/Kiev] PHP Notice:  Undefined index: sess_account in /home/miro/q.fabrik.top/views/profile.php on line 10
+[01-Mar-2021 14:35:51 Europe/Kiev] PHP Notice:  Undefined index: sess_account in /home/miro/q.fabrik.top/views/profile.php on line 10
+[01-Mar-2021 14:36:04 Europe/Kiev] PHP Notice:  Undefined index: sess_account in /home/miro/q.fabrik.top/views/profile.php on line 10
