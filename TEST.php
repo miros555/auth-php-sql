@@ -50,23 +50,23 @@ SELECT SUM(products_count) unique_products_sum FROM (
 e) Для заданной категории получить ее полный путь в дереве (breadcrumb, «хлебные крошки»).
   
 
-select name from categories
-	where id in (select parent_id from categories 
-	where id in (select parent_id from categories	
-	where id in (select parent_id from categories 
-	where id = 4)))
+SELECT name FROM categories
+	WHERE id in (SELECT parent_id FROM categories 
+	WHERE id in (SELECT parent_id FROM categories	
+	WHERE id in (SELECT parent_id FROM categories 
+	WHERE id = 4)))
 UNION
-select name from categories
-	where id in (select parent_id from categories  
-	where id in (select parent_id from categories 
-	where id = 4))
+SELECT name FROM categories
+	WHERE id in (SELECT parent_id FROM categories  
+	WHERE id in (SELECT parent_id FROM categories 
+	WHERE id = 4))
 UNION
-select name from categories 
-	where id in (select parent_id from categories 
-	where id = 4)
+SELECT name FROM categories 
+	WHERE id in (SELECT parent_id FROM categories 
+	WHERE id = 4)
 UNION	
-select name from categories 
-	where id = 4	
+SELECT name FROM categories 
+	WHERE id = 4	
 
 *******************************************************************************************
 
@@ -93,10 +93,25 @@ function LIFOqueue(){
 
 LIFOqueue('one','two','three','four','five');
 
+
+*******************************************************************
+
 Задание 4. Переливка данных БД.
 
+
+1. В таком случае желательно делать переливку не через phpAdminer и т.д. - а чере консоль
+- так как длительное время выполнения операции однозначно будет сопровождаться обрывом процесса.
+2.Сделать резервную копию базы С2 перед началом работы.
+3. Чтобы не было коллизий с id - лучше перечислить нужные поля в С1 и С2, чтобы вставлять новые 
+(которых нету в таблице С2) без id, а формирование id возложить на триггер у целевой таблицы (в данном случае С2).
+4. В таком случае целесообразно также использовать игнорирование ошибок при вводе данных (так как сервер живой и на нем паралельно 
+идут обновления - чтобы его работа не была остановлена вследвие како-то случайной критической ошибки).
+ 
+ 
 ********************************************************************
-Дополнительные  задания
+    ++++++++++++++  Дополнительные  задания   ++++++++++++++
+********************************************************************
+		   
 Задание  1
 Разработать php-скрипт,  отображающий сам себя без использования функций чтения файлов.
 
@@ -174,7 +189,9 @@ function transformation(){
 	}
 }
 
-	
+ //example
+
+console.log(num_letters(9999));	
 	
 	
 	
